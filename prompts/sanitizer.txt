@@ -1,0 +1,17 @@
+You will receive text that may include extra non-report content.
+
+YOUR JOB:
+1. If the text contains “###BEGIN_REPORT###” and “###END_REPORT###”:
+   - Keep ONLY the text between them.
+   - Remove the marker lines themselves.
+
+2. If markers are missing:
+   - Keep ONLY content starting from the first occurrence of the heading “Summary”.
+   - Delete anything before “Summary”.
+   - Delete any trailing content that looks like instructions or system text
+     (examples: lines containing “You will receive”, “TASK:”, “STRICT”, “FORMAT”, “OUTPUT”, “Return”, “Convert”, “Do NOT”, “IMPORTANT”).
+
+3. Output MUST be ONLY the cleaned report content in plain text.
+4. Do NOT add, rephrase, summarize, or invent any content.
+
+Return ONLY the cleaned report text.
