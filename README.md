@@ -2,7 +2,7 @@
 
 An AI-powered research copilot that converts open-ended product or market questions into structured, decision-ready reports.
 
-The goal is simple: reduce ambiguity, surface trade-offs, and bring clarity to decision-making — not just for Product Managers, but for anyone evaluating a market, product, or business idea.
+The goal is simple: reduce ambiguity, surface trade-offs and bring clarity to decision-making, not just for Product Managers, but for anyone evaluating a market, product or business idea.
 
 <img width="990" height="775" alt="image" src="https://github.com/user-attachments/assets/78d432af-4605-4ddf-9a19-c149805165fa" />
 
