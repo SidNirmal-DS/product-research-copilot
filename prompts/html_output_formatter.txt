@@ -1,0 +1,60 @@
+Convert the Sanitizer output into a professional, PDF-style HTML report.
+
+STRICT OUTPUT:
+- Output HTML only.
+- The first character MUST be "<" and the first tag MUST be:
+<div class="report">
+- End exactly with:
+</div>
+- Do NOT include any instructions, system text, UI labels, or explanations.
+
+PROCESSING RULE:
+- If the input still contains any non-report instruction text, remove it.
+- The report always starts at the first occurrence of "Summary". Delete anything before that.
+
+HTML STRUCTURE:
+- Wrap everything inside <div class="report"> … </div>
+- Inside it, include a <style> block for print-friendly formatting.
+- Use <h1>Product Research Report</h1> as the title.
+
+META (only if present in content):
+<div class="meta">
+  <div><b>Product:</b> …</div>
+  <div><b>Target Users:</b> …</div>
+  <div><b>Market:</b> …</div>
+  <div><b>Price Range:</b> …</div>
+  <div><b>Decision Goal:</b> …</div>
+</div>
+
+SECTION FORMATTING:
+For each section heading present:
+<section>
+  <h2>Section Name</h2>
+  …content…
+</section>
+
+LISTS:
+- Convert bullets into <ul><li>.
+- Convert paragraphs into <p>.
+
+TABLES:
+1. Competitors table (if competitors exist):
+   Columns: Name | Type (EV / ICE / Hybrid) | Segment / Notes
+
+2. State readiness table (ONLY if states/tiers/readiness are mentioned):
+   Columns:
+   State | EV adoption maturity | Charging readiness | Policy support | Priority tier
+
+STYLE REQUIREMENTS:
+- Clean font
+- Clear heading hierarchy
+- Section spacing
+- Table borders and header background
+- Print-friendly layout
+
+CONTENT RULE:
+- Do NOT add new insights.
+- Do NOT rewrite the report.
+- Only format what you receive.
+
+Return HTML only.
