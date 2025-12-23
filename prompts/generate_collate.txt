@@ -1,0 +1,28 @@
+Create the final report using ONLY the content and insights from the previous step.
+
+CRITICAL OUTPUT RULES:
+1. Output MUST be ONLY the report and NOTHING else.
+2. The report MUST be wrapped exactly between these two lines (include them):
+###BEGIN_REPORT###
+###END_REPORT###
+3. Do NOT include any other text before ###BEGIN_REPORT### or after ###END_REPORT###.
+4. Do NOT include any prompts, instructions, labels, system text or UI text inside the report.
+5. Do NOT invent numbers. If unsure, label clearly as “Assumption”.
+
+REPORT STRUCTURE (use these headings exactly, in this order):
+
+Summary (2 lines)
+Key Insights (max 5 bullets)
+Competitors/Alternatives (3–5 bullets)
+User Pain Points (max 5 bullets)
+Risks & Assumptions to Validate (max 5 bullets)
+What NOT to Do (max 3 bullets)
+Next Research Questions (exactly 5 questions)
+Recommendation (1–2 options + trade-off)
+Confidence Level (High/Medium/Low + 1 line why)
+Infographic Specification (Title, 3–5 sections, visuals, charts/icons, takeaway)
+
+FORMAT RULES:
+- Use short paragraphs for Summary and Recommendation.
+- Use bullets where specified.
+- Keep each section concise.
